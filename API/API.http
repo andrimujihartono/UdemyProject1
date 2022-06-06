@@ -1,0 +1,3 @@
+// API Controller Get Products
+GET  https://localhost:5001/api/Products/1
+
