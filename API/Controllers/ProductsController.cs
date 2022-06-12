@@ -13,36 +13,43 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        public readonly IProductRepository _repo;
 
-        public ProductsController(IProductRepository repo)
+        private readonly IGenericRepository<Product> _productsRepo;
+        private readonly IGenericRepository<ProductBrand> _productBrand;
+        private readonly IGenericRepository<ProductType> _productType;
+
+        public ProductsController(IGenericRepository<Product> productsRepo,
+        IGenericRepository<ProductBrand> productBrand, IGenericRepository<ProductType> productType)
         {
-            _repo = repo;
+            _productType = productType;
+            _productBrand = productBrand;
+            _productsRepo = productsRepo;
+
         }
 
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetProducts()
         {
-            var products = await  _repo.GetProductAsync();
+            var products = await _productsRepo.ListAllAsync();
             return Ok(products);
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
-            return await _repo.GetProductByIdAsync(id);
-            
+            return await _productsRepo.GetByIdAsync(id);
+
         }
         [HttpGet("brands")]
         public async Task<ActionResult<IReadOnlyList<ProductBrand>>> GetProductBrands()
         {
-            return Ok(await _repo.GetProductBrandsAsync());
+            return Ok(await _productBrand.ListAllAsync());
         }
 
         [HttpGet("types")]
         public async Task<ActionResult<IReadOnlyList<ProductType>>> GetProductTypes()
         {
-            return Ok(await _repo.GetProductBrandsAsync());
+            return Ok(await _productType.ListAllAsync());
         }
     }
 }
