@@ -49,7 +49,7 @@ namespace API.Controllers
         {
             var spec = new ProductWithTypesAndBrandsSpesification(id);
 
-            var product = await _productsRepo.GetEntityWithSpec(spec);
+            var product = await _productsRepo.GetEntityWithSpec(spec, id);
 
             if(product == null) return NotFound(new ApiResponse(404));
             
