@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Programming\\Udemy\\Skinet\\API\\API.csproj": {}
+    "D:\\Programming\\Udemy\\Skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "d:\\Programming\\Udemy\\Skinet\\API\\API.csproj": {
+    "D:\\Programming\\Udemy\\Skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Programming\\Udemy\\Skinet\\API\\API.csproj",
+        "projectUniqueName": "D:\\Programming\\Udemy\\Skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "d:\\Programming\\Udemy\\Skinet\\API\\API.csproj",
+        "projectPath": "D:\\Programming\\Udemy\\Skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Andri Muji Hartono\\.nuget\\packages\\",
-        "outputPath": "d:\\Programming\\Udemy\\Skinet\\API\\obj\\",
+        "outputPath": "D:\\Programming\\Udemy\\Skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andri Muji Hartono\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -44,6 +44,18 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -85,14 +97,14 @@
         }
       }
     },
-    "d:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj": {
+    "D:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "d:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj",
+        "projectPath": "D:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Andri Muji Hartono\\.nuget\\packages\\",
-        "outputPath": "d:\\Programming\\Udemy\\Skinet\\Core\\obj\\",
+        "outputPath": "D:\\Programming\\Udemy\\Skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andri Muji Hartono\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -139,14 +151,14 @@
         }
       }
     },
-    "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Andri Muji Hartono\\.nuget\\packages\\",
-        "outputPath": "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Programming\\Udemy\\Skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andri Muji Hartono\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -163,8 +175,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "d:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj": {
-                "projectPath": "d:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj"
+              "D:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj": {
+                "projectPath": "D:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj"
               }
             }
           }
