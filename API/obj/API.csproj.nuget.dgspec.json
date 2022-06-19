@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\Udemy\\Demo\\Skinet\\API\\API.csproj": {}
+    "d:\\Programming\\Udemy\\Skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\Udemy\\Demo\\Skinet\\API\\API.csproj": {
+    "d:\\Programming\\Udemy\\Skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Udemy\\Demo\\Skinet\\API\\API.csproj",
+        "projectUniqueName": "d:\\Programming\\Udemy\\Skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Programming\\Udemy\\Demo\\Skinet\\API\\API.csproj",
+        "projectPath": "d:\\Programming\\Udemy\\Skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Andri Muji Hartono\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Udemy\\Demo\\Skinet\\API\\obj\\",
+        "outputPath": "d:\\Programming\\Udemy\\Skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andri Muji Hartono\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Programming\\Udemy\\Demo\\Skinet\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Programming\\Udemy\\Demo\\Skinet\\Infrastructure\\Infrastructure.csproj"
+              "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -85,14 +85,14 @@
         }
       }
     },
-    "D:\\Programming\\Udemy\\Demo\\Skinet\\Core\\Core.csproj": {
+    "d:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Udemy\\Demo\\Skinet\\Core\\Core.csproj",
+        "projectUniqueName": "d:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\Programming\\Udemy\\Demo\\Skinet\\Core\\Core.csproj",
+        "projectPath": "d:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Andri Muji Hartono\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Udemy\\Demo\\Skinet\\Core\\obj\\",
+        "outputPath": "d:\\Programming\\Udemy\\Skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andri Muji Hartono\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -139,14 +139,14 @@
         }
       }
     },
-    "D:\\Programming\\Udemy\\Demo\\Skinet\\Infrastructure\\Infrastructure.csproj": {
+    "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\Udemy\\Demo\\Skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Programming\\Udemy\\Demo\\Skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Andri Muji Hartono\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\Udemy\\Demo\\Skinet\\Infrastructure\\obj\\",
+        "outputPath": "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andri Muji Hartono\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -163,8 +163,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Programming\\Udemy\\Demo\\Skinet\\Core\\Core.csproj": {
-                "projectPath": "D:\\Programming\\Udemy\\Demo\\Skinet\\Core\\Core.csproj"
+              "d:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj": {
+                "projectPath": "d:\\Programming\\Udemy\\Skinet\\Core\\Core.csproj"
               }
             }
           }

@@ -1339,11 +1339,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Udemy\\Demo\\Skinet\\API\\API.csproj",
+      "projectUniqueName": "d:\\Programming\\Udemy\\Skinet\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\Programming\\Udemy\\Demo\\Skinet\\API\\API.csproj",
+      "projectPath": "d:\\Programming\\Udemy\\Skinet\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Andri Muji Hartono\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Udemy\\Demo\\Skinet\\API\\obj\\",
+      "outputPath": "d:\\Programming\\Udemy\\Skinet\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andri Muji Hartono\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1360,8 +1360,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Programming\\Udemy\\Demo\\Skinet\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Programming\\Udemy\\Demo\\Skinet\\Infrastructure\\Infrastructure.csproj"
+            "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "d:\\Programming\\Udemy\\Skinet\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
