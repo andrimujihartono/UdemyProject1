@@ -7,8 +7,7 @@ namespace Infrastructure.Data
 {
     public class SpesificationEvaluator<TEntity> where TEntity : BaseEntity
     {
-        public static IQueryable<TEntity> GetQuery(IQueryable<TEntity> inputQuery, 
-        ISpesification<TEntity> spec)
+        public static IQueryable<TEntity> GetQuery(IQueryable<TEntity> inputQuery, ISpesification<TEntity> spec)
         {
             var query = inputQuery;
 
@@ -16,8 +15,18 @@ namespace Infrastructure.Data
             {
                 query.Where(spec.Criteria);
             }
-            query = spec.Includes.Aggregate(query, (current, include)
-                    => current.Include(include));
+
+            if(spec.OrderBy != null)
+            {
+                query.OrderBy(spec.OrderBy);
+            }
+
+            if(spec.OrderByDescending != null)
+            {
+                query.OrderByDescending(spec.OrderByDescending);
+            }
+
+            query = spec.Includes.Aggregate(query, (current, include) => current.Include(include));
             return query;
         }
     }

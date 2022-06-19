@@ -9,8 +9,7 @@ namespace Core.Interfaces
     {
         Task<T> GetByIdAsync(int id);
         Task<IReadOnlyList<T>> ListAllAsync();
-
-        Task<T> GetEntityWithSpec(ISpesification<T> spec, int id);
+        Task<T> GetEntityWithSpec(ISpesification<T> spec);
         Task<IReadOnlyList<T>> ListAsync(ISpesification<T> spec);
          
     }

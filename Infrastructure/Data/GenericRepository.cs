@@ -27,13 +27,14 @@ namespace Infrastructure.Data
            return await _context.Set<T>().ToListAsync();
         }
 
-        public async Task<T> GetEntityWithSpec(ISpesification<T> spec, int id)
+        public async Task<T> GetEntityWithSpec(ISpesification<T> spec)
         {
-            return await ApplySpesification(spec).FirstOrDefaultAsync(x => x.Id == id);      
+            return await ApplySpesification(spec).FirstOrDefaultAsync();      
         }
         public async Task<IReadOnlyList<T>> ListAsync(ISpesification<T> spec)
         {
-            return await ApplySpesification(spec).ToListAsync();
+            var query = ApplySpesification(spec);
+            return await query.ToListAsync();
         }
 
         private IQueryable<T> ApplySpesification(ISpesification<T> spec)
