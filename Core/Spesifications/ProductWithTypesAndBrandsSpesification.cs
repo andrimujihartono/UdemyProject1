@@ -5,11 +5,14 @@ namespace Core.Spesifications
     public class ProductWithTypesAndBrandsSpesification
         : BaseSpesification<Product>
     {
-        public ProductWithTypesAndBrandsSpesification(string sort)
+        public ProductWithTypesAndBrandsSpesification(string sort, int? brandId, int? typeId) : base(x =>
+            (!brandId.HasValue || x.ProductBrandId == brandId) &&  
+            (!typeId.HasValue || x.ProductTypeId == typeId)
+        )
         {
             AddInclude(x => x.ProductType);
             AddInclude(x => x.ProductBrand);
-            // AddOrderBy(x => x.Name);
+            AddOrderBy(x => x.Name);
 
             if(!string.IsNullOrEmpty(sort))
             {
