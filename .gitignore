@@ -4,3 +4,6 @@ appsettings.json
 *.db
 Notes
 .vscode
+/node_modules
+/tmp
+/dist
